@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f639c0d-bb0e-4f40-abd3-f75b2d0dc8ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmbeddedProject/logics/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,36 +23,49 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="2" />
+          <entry key="Python" value="3" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="29" />
+          <entry key="py" value="576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="29" />
+          <entry key="Python" value="576" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/embeddedproject.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1542113928956" expanded="true" signature="600:1069" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,6 +86,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" />
       </list>
     </option>
   </component>
@@ -100,6 +114,12 @@
               <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
               <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
+              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,6 +185,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="925" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -213,6 +234,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1542113928956" expanded="true" signature="600:1069" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
