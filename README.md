@@ -5,8 +5,6 @@ The robot can read sensors via serial connection and can be controlled with a xb
 
 ## Getting Started
 
-There isnt a build yet for the project.
-
 ### Prerequisites
 
 #### Install conda
