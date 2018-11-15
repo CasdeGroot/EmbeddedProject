@@ -1,7 +1,7 @@
 # Smart Tooling Embedded Project
 
 For the project Smart Tooling we've created a project for a robotic crawler to inspect Oil Tanks.  
-The robot can read sensors via serial connection and ride with a xbox controller.  
+The robot can read sensors via serial connection and can be controlled with a xbox controller.  
 
 ## Getting Started
 
