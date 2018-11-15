@@ -10,9 +10,9 @@ There isnt a build yet for the project
 ### Prerequisites
 
 #### Install conda
-**Step 1** Go to https://www.anaconda.com/download/ and select the operation system you are using.
-**Step 2** Download the installer for python 3.7. 
-**Step 3** Execute the installer and install conda!
+* **Step 1** Go to https://www.anaconda.com/download/ and select the operation system you are using.
+* **Step 2** Download the installer for python 3.7. 
+* **Step 3** Execute the installer and install conda!
 
 ### Installing
 
