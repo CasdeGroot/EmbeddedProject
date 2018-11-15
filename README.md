@@ -11,12 +11,14 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 1** Go to https://www.anaconda.com/download/ and select the operation system you are using.
 * **Step 2** Download the installer for python 3.7. 
 * **Step 3** Execute the installer and install conda!
+* **Step 4** Validate installation with the command "conda --version" on linux.
 
 #### Install git
 * **Step 1** Open terminal with Ctrl+Alt+t.
 * **Step 2** Run command "sudo apt-get install git".
 * **Step 3** Type in 'Y' to continue.
 * **Step 4** Wait for git to install.
+* **Step 5** Validate installation with the command "git --version" on linux.
 
 #### *Optional* Install Gitkraken
 * **Step 1** Go to https://www.gitkraken.com/download.
