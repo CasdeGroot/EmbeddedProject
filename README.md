@@ -8,7 +8,7 @@ The robot can read sensors via serial connection and can be controlled with a xb
 ### Prerequisites
 
 #### Install conda
-* **Step 1** Go to https://www.anaconda.com/download/ and select the operation system you are using.
+* **Step 1** Go to https://conda.io/miniconda.html and select the operation system you are using.
 * **Step 2** Download the installer for python 3.7. 
 * **Step 3** Give the .sh file execute access with the command "chmod ug+x ./filename.sh".
 * **Step 4** Run the installer with command "./filename.sh".
