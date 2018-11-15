@@ -1,5 +1,3 @@
-import threading, multiprocessing
-import time
 import serial
 import sys
 
@@ -11,9 +9,7 @@ def open_serial_port(port=""):
 
     try:
         port = serial.Serial(port,
-                    baudrate=2400,
-                    bytesize=serial.EIGHTBITS,
-                    parity =serial.PARITY_ODD)
+                    baudrate=9600)
 
     except serial.SerialException as msg:
         print( "Error opening serial port %s" % msg)
@@ -22,11 +18,12 @@ def open_serial_port(port=""):
         exctype, errorMsg = sys.exc_info()[:2]
         print ("%s  %s" % (errorMsg, exctype))
 
+    print("Opened port %s" % port.name)
     return port
 
 
 def read_serial_data(queue, stopped, serialPort):
-    print("start reading data");
+    print("start reading data")
 
     while not stopped.is_set():
         data = ''
@@ -42,11 +39,15 @@ def read_serial_data(queue, stopped, serialPort):
 
         if len(data) > 0:
             queue.put(data)
-        else
+        else:
             queue.put("NO DATA")
 
     serialPort.close()
     print("Read_Data finished.")
+
+if __name__ == '__main__':
+    open_serial_port("/dev/ttyS1")
+
 
 
 
