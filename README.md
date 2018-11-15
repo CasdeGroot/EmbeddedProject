@@ -65,7 +65,7 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 9** Select "OK" the IDE should now be set and code can be run.
 
 #### Execute Code
-
+To execute code to test if everything is set, right click on a python file and select "run <filename>".
 
 ## Authors
 
