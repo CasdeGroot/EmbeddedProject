@@ -33,6 +33,11 @@ The robot can read sensors via serial connection and can be controlled with a xb
 ### Installing
 
 #### Clone repository
+* **Step 1** Open Gitkraken.
+* **Step 2** Select the folder icon and click on "Clone".
+* **Step 3** Add "https://github.com/CasdeGroot/EmbeddedProject.git" to the URL inputfield.
+* **Step 4** Select clone location with the browse button.
+* **Step 5** Select "Clone repo!".
 
 #### Setup Environment
 
