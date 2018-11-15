@@ -28,7 +28,7 @@ The robot can read sensors via serial connection and can be controlled with a xb
 
 #### *Optional* Install PyCharm
 * **Step 1** Open terminal with Ctrl+Alt+t.
-* **Step 2** Run command "sudo snap install pycharm-community".
+* **Step 2** Run command "sudo snap install pycharm-community --classic".
 * **Step 3** Wait for installation to be complete.
 * **Step 4** Run PyCharm with the command "pycharm-community".
 
