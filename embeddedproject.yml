@@ -2,19 +2,26 @@ name: EmbeddedProject
 channels:
   - defaults
 dependencies:
+  - atomicwrites=1.2.1=py37_0
+  - attrs=18.2.0=py37h28b3542_0
   - ca-certificates=2018.03.07=0
   - certifi=2018.10.15=py37_0
   - libedit=3.1.20170329=h6b74fdf_2
   - libffi=3.2.1=hd88cf55_4
   - libgcc-ng=8.2.0=hdf63c60_1
   - libstdcxx-ng=8.2.0=hdf63c60_1
+  - more-itertools=4.3.0=py37_0
   - ncurses=6.1=hf484d3e_0
   - openssl=1.1.1=h7b6447c_0
   - pip=18.1=py37_0
+  - pluggy=0.8.0=py37_0
+  - py=1.7.0=py37_0
   - pyserial=3.4=py37_0
+  - pytest=3.10.0=py37_0
   - python=3.7.1=h0371630_3
   - readline=7.0=h7b6447c_5
   - setuptools=40.5.0=py37_0
+  - six=1.11.0=py37_1
   - sqlite=3.25.2=h7b6447c_0
   - tk=8.6.8=hbc83047_0
   - wheel=0.32.2=py37_0
