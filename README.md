@@ -16,12 +16,6 @@ There isnt a build yet for the project.
 
 ### Installing
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
 * **Cas de Groot** - https://github.com/casdegroot
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
