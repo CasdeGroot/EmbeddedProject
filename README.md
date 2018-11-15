@@ -10,7 +10,11 @@ The robot can read sensors via serial connection and can be controlled with a xb
 #### Install conda
 * **Step 1** Go to https://www.anaconda.com/download/ and select the operation system you are using.
 * **Step 2** Download the installer for python 3.7. 
-* **Step 3** Execute the installer and install conda!
+* **Step 3** Give the .sh file execute access with the command "chmod ug+x ./filename.sh".
+* **Step 4** Run the installer with command "./filename.sh".
+* **Step 5** Hold enter until it askes for 'yes or 'no', press yes.
+* **Step 6** Press enter for default location path.
+* **Step 7** Now wait for the installation to be finished.
 * **Step 4** Validate installation with the command "conda --version" on linux.
 
 #### Install git
