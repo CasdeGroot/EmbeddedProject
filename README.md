@@ -54,8 +54,18 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 5** run command "conda list" and check if pyserial is in the printed list with version 3.4 to validate the install.
 
 #### Setup IDE
+* **Step 1** Open PyCharm with the command "sudo pycharm-community" while EmbeddedProject environment is activated.
+* **Step 2** Select "Open" in the menu and open the project.
+* **Step 3** Press Ctrl+Alt+S to open settings menu and select "Python Interpreter" in the dropdown menu.
+* **Step 4** Press the gear icon and select 'Add'.
+* **Step 5** Select "Existing Environment".
+* **Step 6** In the "enterpreter field" type in "home/<username>/miniconda3/envs/EmbeddedProject/bin/python" or find the file with the file exporer.
+* **Step 7** Select "OK".
+* **Step 8** Validate the environment by checking all the listed packages with the embeddedproject.yml file.
+* **Step 9** Select "OK" the IDE should now be set and code can be run.
 
 #### Execute Code
+
 
 ## Authors
 
