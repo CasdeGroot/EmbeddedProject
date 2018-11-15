@@ -47,6 +47,11 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 5** Select "Clone repo!".
 
 #### Setup Environment
+* **Step 1** Open terminal with Ctrl+Alt+t.
+* **Step 2** Navigate to repo folder (folder with embeddedproject.yml file) "cd <path>" command.
+* **Step 3** Create environment with command "conda env create -f embeddedproject.yml".
+* **Step 4** Start environment with "conda activate embeddedproject".
+* **Step 5** run command "conda list" and check if pyserial is in the printed list with version 3.4 to validate the install.
 
 #### Setup IDE
 
