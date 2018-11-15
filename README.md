@@ -12,6 +12,12 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 2** Download the installer for python 3.7. 
 * **Step 3** Execute the installer and install conda!
 
+#### Install git
+* **Step 1** Open terminal with Ctrl+Alt+t  
+* **Step 2** Type in "sudo apt-get install git"
+* **Step 3** Type in 'Y' to continue
+* **Step 4** Wait for git to install
+
 ### Installing
 
 ## Authors
