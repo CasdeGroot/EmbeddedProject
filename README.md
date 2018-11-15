@@ -15,7 +15,8 @@ The robot can read sensors via serial connection and can be controlled with a xb
 * **Step 5** Hold enter until it askes for 'yes or 'no', press yes.
 * **Step 6** Press enter for default location path.
 * **Step 7** Now wait for the installation to be finished.
-* **Step 4** Validate installation with the command "conda --version" on linux.
+* **Step 8** Add conda.sh to bashrc with command "echo ". /home/<username>/miniconda3/etc/profile.d/conda.sh" ~/.bashrc".
+* **Step 9** Validate installation with the command "conda --version" on linux.
 
 #### Install git
 * **Step 1** Open terminal with Ctrl+Alt+t.
