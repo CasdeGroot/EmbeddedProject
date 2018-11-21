@@ -8,8 +8,7 @@ def open_serial_port(port=""):
     port = None
 
     try:
-        port = serial.Serial(port,
-                    baudrate=9600)
+        port = serial.Serial(port, baudrate=9600)
 
     except serial.SerialException as msg:
         print( "Error opening serial port %s" % msg)
