@@ -18,7 +18,8 @@ class BlacklightCommand(Enum):
     SEND_VALUE = 7,
     GET_VALUE = 8
 
-class EthernetCommand():
+
+class EthernetCommand:
     HANDSHAKE = 1,
     EXIT = 2,
     PAUSE = 3,

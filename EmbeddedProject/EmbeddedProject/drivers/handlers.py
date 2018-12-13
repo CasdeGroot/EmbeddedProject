@@ -46,4 +46,10 @@ class BlacklightHandler(CommandHandler, events.Sender):
         self.send_command(cmds.BlacklightCommand.CAPTURE, options=options)
 
 
+class ControllerHandler(CommandHandler, events.Sender):
+    def __init__(self, sender):
+        CommandHandler.__init__(self, sender)
+        events.Sender.__init__(self)
+
+
 
