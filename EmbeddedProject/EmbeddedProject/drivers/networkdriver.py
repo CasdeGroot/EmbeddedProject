@@ -9,6 +9,8 @@ class NetworkDriver(Driver):
         self.send_ip = get_attribute("send_ip", network_config)
         self.send_port = int(get_attribute("send_port", network_config))
         self.connected = True
+        self.start_listening()
+        self.hand_shake()
 
     def init_communicator(self, network_config):
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)

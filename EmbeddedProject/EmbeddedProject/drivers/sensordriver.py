@@ -5,6 +5,8 @@ import serial
 class SensorDriver(Driver):
     def __init__(self, sensor_config):
         Driver.__init__(self, sensor_config)
+        self.start_listening()
+        self.hand_shake()
 
     def init_communicator(self, sensor_config):
         try:
