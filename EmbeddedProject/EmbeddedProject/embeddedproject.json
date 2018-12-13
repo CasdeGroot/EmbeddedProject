@@ -1,0 +1,30 @@
+{
+  "sensors": {
+    "blacklight": {
+      "com_port": "COM10",
+      "baud_rate": 115200,
+      "timeout": 5,
+      "writeTimeout": 3,
+      "handler": "drivers.handlers.BlacklightHandler"
+    },
+    "roughness": {
+      "com_port": "COM4",
+      "baud_rate": 115200,
+      "timeout": 1,
+      "writeTimeout": 1,
+      "handler": "drivers.RoughnessHandler"
+    }
+  },
+  "networking": {
+    "blacklight_sensor": {
+      "ip": "127.0.0.1",
+      "port": 12345,
+      "handler": ""
+    },
+    "controller": {
+      "ip": "127.0.0.1",
+      "port": 12345,
+      "handler": ""
+    }
+  }
+}
