@@ -12,9 +12,11 @@ class Driver:
         self.commands = None
         self.connected = False
         self.doListen = False
-        self.communicator = self.init_communicator(config)
         self.handshake = False
+        self.communicator = self.init_communicator(config)
         self.listening_thread = threading.Thread(target=self.listen)
+        self.start_listening()
+        self.hand_shake()
 
     @abc.abstractmethod
     def init_communicator(self, config):
