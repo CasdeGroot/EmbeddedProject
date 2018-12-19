@@ -10,7 +10,6 @@ class NetworkDriver(Driver):
         self.send_port = int(get_attribute("send_port", network_config))
         self.connected = True
         self.start_listening()
-        self.hand_shake()
 
     def init_communicator(self, network_config):
         sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -19,10 +18,10 @@ class NetworkDriver(Driver):
 
     def receive(self):
         data, address = self.communicator.recvfrom(1024)
-        print("Received packet from: " + address.decode("ascii"))
+        print("Received packet from: " + address[0])
         print("Packet data: " + data.decode("ascii"))
         return data
 
     def write(self, serialized_packet):
-        print("Sent packet: " + serialized_packet)
+        # print("Sent packet: " + serialized_packet.decode("ascii"))
         self.communicator.sendto(serialized_packet, (self.send_ip, self.send_port))

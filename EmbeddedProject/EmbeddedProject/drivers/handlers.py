@@ -1,8 +1,10 @@
 from EmbeddedProject.drivers import commands as cmds
 from EmbeddedProject.Utils import events
 
-class CommandHandler:
+
+class CommandHandler(events.Sender):
     def __init__(self, sender):
+        events.Sender.__init__(self)
         self.command_lookup = dict({
             cmds.Command.HANDSHAKE.name: self.handle_handshake,
             cmds.Command.EXIT.name: self.handle_exit,
@@ -33,23 +35,22 @@ class CommandHandler:
         return None
 
 
-class BlacklightHandler(CommandHandler, events.Sender):
+class BlacklightHandler(CommandHandler):
     def __init__(self, sender):
         CommandHandler.__init__(self, sender)
-        events.Sender.__init__(self)
 
         self.command_lookup.update({
-            cmds.BlacklightCommand.CAPTURE.name: self.handle_capture
+            cmds.BlacklightCommand.CAPTURED.name: self.handle_captured
         })
 
-    def handle_capture(self, options):
-        self.send_command(cmds.BlacklightCommand.CAPTURE, options=options)
+    def handle_captured(self, options):
+        self.send_command(cmds.BlacklightCommand.CAPTURED, options=options)
 
 
-class ControllerHandler(CommandHandler, events.Sender):
+class ControllerHandler(CommandHandler):
     def __init__(self, sender):
         CommandHandler.__init__(self, sender)
-        events.Sender.__init__(self)
+
 
 
 

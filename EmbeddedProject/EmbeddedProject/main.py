@@ -1,13 +1,15 @@
+from EmbeddedProject.drivers import commands
 from EmbeddedProject.managers.configmanager import ConfigManager
 from EmbeddedProject.Utils.argparser import get_args
 import time
 
+from EmbeddedProject.managers.visionmanager import VisionManager
+
+
 def main():
     arg = get_args()
     config_manager = ConfigManager(arg.config)
-    controller =  config_manager.drivers.get("controller")
-    controller.start_listening()
-    controller.hand_shake()
+    vision_manager = VisionManager(config_manager)
 
 
 if __name__ == "__main__":

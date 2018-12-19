@@ -15,8 +15,7 @@ class BlacklightCommand(Enum):
     NONE = 4,
     CAPTURE = 5,
     MULTI_CAPTURE = 6,
-    SEND_VALUE = 7,
-    GET_VALUE = 8
+    CAPTURED = 7
 
 
 class EthernetCommand:

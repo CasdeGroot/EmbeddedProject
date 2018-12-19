@@ -6,7 +6,6 @@ class SensorDriver(Driver):
     def __init__(self, sensor_config):
         Driver.__init__(self, sensor_config)
         self.start_listening()
-        self.hand_shake()
 
     def init_communicator(self, sensor_config):
         try:
@@ -31,7 +30,7 @@ class SensorDriver(Driver):
         return None
 
     def write(self, serialized_packet):
-        print("Wrote: " + serialized_packet)
+        # print("Wrote: " + serialized_packet)
         self.communicator.write(serialized_packet)
 
     def receive(self):

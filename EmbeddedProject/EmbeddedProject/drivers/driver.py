@@ -9,12 +9,14 @@ from EmbeddedProject.drivers.commands import Command
 
 class Driver:
     def __init__(self, config):
-        self.commands = None
+        self.handler = None
         self.connected = False
         self.doListen = False
         self.handshake = False
         self.communicator = self.init_communicator(config)
         self.listening_thread = threading.Thread(target=self.listen)
+        self.handshake_thread = threading.Thread(target=self.hand_shake)
+        self.handshake_thread.start()
 
     @abc.abstractmethod
     def init_communicator(self, config):
@@ -41,15 +43,15 @@ class Driver:
     def parse_command(self, input):
         try:
             packet = json.loads(input.decode("ascii"))
-            if packet['command'] == self.commands.command.HANDSHAKE.name:
-                command = self.commands.get_command(command=get_attribute("command", packet))
+            if packet['command'] == Command.HANDSHAKE.name:
+                command = self.handler.get_command(command=get_attribute("command", packet))
                 self.execute_command(command, options=get_attribute("options", packet))
                 return
 
             if packet['handshake'] is False:
-                self.hand_shake()
+                return
 
-            command = self.commands.get_command(command=get_attribute("command", packet))
+            command = self.handler.get_command(command=get_attribute("command", packet))
             self.execute_command(command, options=get_attribute("options", packet))
         except Exception as e:
             print(e)
@@ -59,7 +61,7 @@ class Driver:
         return command(options)
 
     def set_handler(self, handler):
-        self.commands = handler
+        self.handler = handler
 
     def hand_shake(self):
         while not self.handshake:

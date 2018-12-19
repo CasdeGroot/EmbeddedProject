@@ -4,8 +4,8 @@ from EmbeddedProject.Utils.utils import get_attribute
 
 class ConfigManager:
     def __init__(self, path):
-        config = self.read_config(path)
-        self.drivers = self.init_drivers(get_attribute("drivers", config))
+        self.config = self.read_config(path)
+        self.drivers = self.init_drivers(get_attribute("drivers", self.config))
 
     def init_drivers(self, drivers_config):
         drivers = dict()

@@ -1,4 +1,8 @@
 {
+  "vision": {
+    "img_folder": "../Captured_Image",
+    "debug": true
+  },
   "drivers": {
     "blacklight": {
       "driver": "drivers.sensordriver.SensorDriver",
@@ -7,7 +11,7 @@
       "timeout": 5,
       "writeTimeout": 3,
       "handler": "drivers.handlers.BlacklightHandler",
-      "enable": false
+      "enable": true
     },
     "roughness": {
       "driver": "drivers.sensordriver.SensorDriver",
