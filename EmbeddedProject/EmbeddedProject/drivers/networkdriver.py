@@ -23,5 +23,5 @@ class NetworkDriver(Driver):
         return data
 
     def write(self, serialized_packet):
-        # print("Sent packet: " + serialized_packet.decode("ascii"))
+        print("Sent packet: " + serialized_packet.decode("ascii"))
         self.communicator.sendto(serialized_packet, (self.send_ip, self.send_port))

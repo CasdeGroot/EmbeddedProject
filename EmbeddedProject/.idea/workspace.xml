@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f639c0d-bb0e-4f40-abd3-f75b2d0dc8ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/embeddedproject.yml" beforeDir="false" afterPath="$PROJECT_DIR$/embeddedproject.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NeuralNetworkProject/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EmbeddedProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EmbeddedProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmbeddedProject/embeddedproject.json" beforeDir="false" afterPath="$PROJECT_DIR$/EmbeddedProject/embeddedproject.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,109 +18,133 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/configmanager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/visionmanager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="18" column="118" selection-start-line="18" selection-start-column="118" selection-end-line="18" selection-end-column="118" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/commands.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/vision/spot_detector.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="16" column="71" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="71" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EmbeddedProject/embeddedproject.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="575">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/sensordriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="115">
+                <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+                <folding>
+                  <element signature="e#0#49#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/get_images.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/configmanager.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="483">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
+                <folding>
+                  <element signature="e#0#48#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/driver.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="1150">
+                <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/packet.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="506">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/factory.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="184">
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="552">
+                <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+                <folding>
+                  <element signature="e#0#13#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/main.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="46">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/handlers.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="567">
+                <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+                <folding>
+                  <element signature="e#0#52#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor relative-caret-position="-161" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py">
+          <provider selected="true" editor-type-id="live-pycharm">
+            <state>
+              <first_editor relative-caret-position="115">
+                <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+                <folding>
+                  <element signature="e#0#57#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -133,11 +160,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;&gt; &gt;</find>
+      <find>exception</find>
+      <find>prin</find>
+      <find>quw</find>
+      <find>print</find>
+      <find>[&quot;</find>
     </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -151,26 +179,43 @@
         <option value="$PROJECT_DIR$/Tests/TestEmbeddedProject/__init__.py" />
         <option value="$PROJECT_DIR$/Tests/TestEmbeddedProject/TestDrivers/testusbdriver.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/blacklight_driver.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/config.json" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/EmbeddedProject.conf" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/embeddedproject.conf" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/config_test.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/Sensor_Driver.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/__init__.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/test_serial.pu.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/event_test.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/Utils/events.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/managers/sensormanager.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/Utils/factory.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/managers/communicationmanager.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/Utils/configreader.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/Utils/argparser.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/vision/spot_detector.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/drivers/commands.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.txt" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/ethernetdriver.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/Utils/utils.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/packet.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/managers/configmanager.py" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/driver.py" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/sensordriver.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/sensordriver.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/drivers/handlers.py" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/embeddedproject.json" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/managers/get_images.sh" />
-        <option value="$PROJECT_DIR$/EmbeddedProject/managers/visionmanager.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/driver.py" />
         <option value="$PROJECT_DIR$/EmbeddedProject/main.py" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/embeddedproject.json" />
+        <option value="$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="925" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -184,24 +229,12 @@
           <expand>
             <path>
               <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EmbeddedProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="EmbeddedProject" type="462c0819:PsiDirectoryNode" />
-              <item name="managers" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -210,15 +243,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.conda/envs/NeuralNetworkProject" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
-  </component>
-  <component name="PyDebuggerOptionsProvider">
-    <option name="mySupportQtDebugging" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Captured_Image" />
+      <recent name="C:\Users\Cas\Desktop\Desktop\School\4.1_4.2_Minor_Vision_en_Robotics\Periode_1\Project_Smart_Tooling\SmartTooling\EmbeddedProject\EmbeddedProject\Utils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -234,30 +265,40 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="get_images.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="EmbeddedProject" />
-      <option name="INTERPRETER_OPTIONS" value="bash" />
-      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EmbeddedProject/managers" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EmbeddedProject/managers/get_images.sh" />
-      <option name="PARAMETERS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EmbeddedProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/miniconda3/envs/EmbeddedProject/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EmbeddedProject/drivers" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ethernetdriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EmbeddedProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EmbeddedProject/drivers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Cas\Desktop\Desktop\School\4.1_4.2_Minor_Vision_en_Robotics\Periode_1\Project_Smart_Tooling\SmartTooling\EmbeddedProject\EmbeddedProject\drivers\networkdriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,8 +320,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EmbeddedProject/main.py" />
-      <option name="PARAMETERS" value="-c embeddedproject.json" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="PARAMETERS" value="-c &quot;embeddedproject.json&quot;" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -308,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="usbdriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_serial.pu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="EmbeddedProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,7 +361,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EmbeddedProject/drivers/test_serial.pu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Bash.get_images.sh" />
-      <item itemvalue="Python.Test" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.test_serial.pu" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.spot_detector" />
-      <item itemvalue="Python.usbdriver" />
+      <item itemvalue="Python.ethernetdriver" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
-        <item itemvalue="Bash.get_images.sh" />
+        <item itemvalue="Python.ethernetdriver" />
         <item itemvalue="Python.spot_detector" />
-        <item itemvalue="Python.usbdriver" />
-        <item itemvalue="Python.Test" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.test_serial.pu" />
       </list>
     </recent_temporary>
   </component>
@@ -369,22 +410,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25956285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2075347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32848838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32794118" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5852941" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32945737" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32945737" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32941177" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -392,18 +433,18 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25956285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2075347" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32848838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39922482" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32794118" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.22941177" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32945737" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32945737" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32945737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -417,9 +458,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py</url>
-          <line>10</line>
+          <url>file://$PROJECT_DIR$/EmbeddedProject/vision/spot_detector.py</url>
+          <line>11</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EmbeddedProject/drivers/handlers.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -439,160 +485,253 @@
     <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/usbdriver.py" />
     <entry file="file://$PROJECT_DIR$/Tests/TestEmbeddedProject/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Tests/TestEmbeddedProject/TestDrivers/testusbdriver.py" />
+    <entry file="file://$PROJECT_DIR$/unknown-0.0-0.tar.bz2" />
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/blacklight_driver.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="292">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor relative-caret-position="-99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/__init__.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/io.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/test_serial.pu.py" />
     <entry file="file://$PROJECT_DIR$/embeddedproject.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="161">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Captured_Image/image18.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/factory.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/embeddedproject/lib/python3.5/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19665">
-          <caret line="861" selection-start-line="861" selection-end-line="861" />
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/sensormanager.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/13712106/builtins.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="29">
+            <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/vision/green.png" />
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/packet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/configreader.py" />
+    <entry file="file://C:/Miniconda/envs/embeddedproject/Lib/codecs.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="122">
+            <caret line="309" selection-start-line="309" selection-end-line="309" />
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/miniconda3/envs/embeddedproject/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="308" selection-start-line="308" selection-end-line="308" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/handlers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-621">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/config_test.py" />
     <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/events.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="12" />
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="46">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmbeddedProject/vision/spot_detector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="71" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="391">
+            <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <folding>
+              <element signature="e#0#10#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/get_images.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/argparser.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="299">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Miniconda/envs/embeddedproject35/Lib/threading.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="130">
+            <caret line="861" selection-start-line="861" selection-end-line="861" />
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/commands.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="208">
+            <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/driver.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="45" column="59" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/sensordriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
+    <entry file="file://C:/Miniconda/envs/embeddedproject35/Lib/codecs.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="130">
+            <caret line="308" selection-start-line="308" selection-end-line="308" />
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/visionmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="18" column="118" selection-start-line="18" selection-start-column="118" selection-end-line="18" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/configmanager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/utils.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="23">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EmbeddedProject/embeddedproject.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="575">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/sensordriver.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="115">
+            <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <folding>
+              <element signature="e#0#49#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/managers/configmanager.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="483">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <folding>
+              <element signature="e#0#48#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/driver.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="1150">
+            <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/packet.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="506">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/Utils/factory.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="184">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/networkdriver.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="552">
+            <caret line="26" column="66" selection-start-line="26" selection-start-column="66" selection-end-line="26" selection-end-column="66" />
+            <folding>
+              <element signature="e#0#13#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/main.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="46">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/__init__.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+            <folding>
+              <element signature="e#0#57#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmbeddedProject/drivers/handlers.py">
+      <provider selected="true" editor-type-id="live-pycharm">
+        <state>
+          <first_editor relative-caret-position="567">
+            <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+            <folding>
+              <element signature="e#0#52#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor relative-caret-position="-161" />
         </state>
       </provider>
     </entry>
