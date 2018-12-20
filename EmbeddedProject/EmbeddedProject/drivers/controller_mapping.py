@@ -3,14 +3,14 @@ from enum import Enum
 
 class Event:
     def __init__(self, event_type, event, value=0):
-        self.type = event_type.name
-        self.event = event.name
+        self.type = event_type
+        self.event = event
         self.value = value
 
     def to_json(self):
         return {
-            "type": self.type,
-            "event": self.event,
+            "type": self.type.name,
+            "event": self.event.name,
             "value": self.value
         }
 

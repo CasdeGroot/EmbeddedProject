@@ -44,7 +44,7 @@ class Driver:
     def parse_command(self, input):
         try:
             packet = json.loads(input.decode("ascii"))
-            if packet['command'] == Command.HANDSHAKE.name:
+            if packet['command'] == Command.HANDSHAKE.name and packet['handshake'] is False:
                 command = self.handler.get_command(command=get_attribute("command", packet))
                 self.execute_command(command, options=get_attribute("options", packet))
                 return
