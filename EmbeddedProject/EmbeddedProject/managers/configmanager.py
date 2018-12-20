@@ -19,11 +19,12 @@ class ConfigManager:
     def init_driver(driver_config, name, drivers):
         if(get_attribute("enable", driver_config)) is True:
             driver = create(get_attribute("driver", driver_config))(driver_config)
+            commands = create(get_attribute("commands", driver_config))
 
-            if driver is not None:
+            if driver is not None and commands is not None:
                 handler = create(get_attribute("handler", driver_config))
                 if handler is not None:
-                    driver.set_handler(handler(driver))
+                    driver.set_handler(handler(driver, commands))
                     drivers.update({name: driver})
                 else:
                     print("handler not found: " + get_attribute("handler", driver_config))
