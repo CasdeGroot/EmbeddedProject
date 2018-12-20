@@ -15,6 +15,7 @@ class Driver:
         self.handshake = False
         self.communicator = self.init_communicator(config)
         self.listening_thread = threading.Thread(target=self.listen)
+        self.listening_thread.daemon = True
         self.handshake_thread = threading.Thread(target=self.hand_shake)
         self.handshake_thread.start()
 
@@ -74,7 +75,6 @@ class Driver:
             time.sleep(0.2)
 
     def start_listening(self):
-        self.listening_thread.daemon = True
         self.doListen = True
         self.listening_thread.start()
 

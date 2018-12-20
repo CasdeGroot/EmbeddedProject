@@ -9,7 +9,10 @@ from EmbeddedProject.managers.visionmanager import VisionManager
 def main():
     arg = get_args()
     config_manager = ConfigManager(arg.config)
-    vision_manager = VisionManager(config_manager)
+
+    while 1:
+        pass
+    # vision_manager = VisionManager(config_manager)
 
 
 if __name__ == "__main__":
