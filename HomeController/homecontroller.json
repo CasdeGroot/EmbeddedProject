@@ -1,0 +1,13 @@
+{
+  "drivers": {
+    "controller": {
+      "driver": "drivers.networkdriver.NetworkDriver",
+      "send_ip": "192.168.137.214",
+      "send_port": "1337",
+      "listen_ip": "192.168.137.1",
+      "listen_port": "1338",
+      "handler": "drivers.handlers.ControllerHandler",
+      "enable": true
+    }
+  }
+}
