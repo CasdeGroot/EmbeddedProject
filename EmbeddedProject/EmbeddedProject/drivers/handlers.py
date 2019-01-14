@@ -1,5 +1,7 @@
+from EmbeddedProject.Utils.utils import get_attribute
 from EmbeddedProject.drivers import commands as cmds
 from EmbeddedProject.Utils import events
+from EmbeddedProject.drivers.controller_mapping import Event, EventType, JoyStick, Hat, Buttons
 
 
 class CommandHandler(events.Sender):
@@ -23,9 +25,8 @@ class CommandHandler(events.Sender):
         return lambda: None
 
     def handle_handshake(self, options):
-        if self.sender.handshake is False:
+        if not self.sender.handshake:
             self.sender.send_command(cmds.Command.HANDSHAKE)
-
         self.sender.handshake = True
 
     def handle_exit(self, options):
@@ -58,8 +59,11 @@ class ControllerHandler(CommandHandler):
         })
 
     def handle_controller(self, options):
-        print(options)
-        return None
+        event = Event(get_attribute("type", options),
+                      get_attribute("event", options),
+                      get_attribute("value", options))
+
+        self.send_command( self.commands.CONTROLLER_INPUT, event)
 
 
 
