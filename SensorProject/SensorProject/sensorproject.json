@@ -1,0 +1,32 @@
+{
+  "drivers": {
+    "blacklight": {
+      "driver": "drivers.sensordriver.SensorDriver",
+      "com_port": "COM10",
+      "baud_rate": 115200,
+      "timeout": 5,
+      "writeTimeout": 3,
+      "handler": "drivers.handlers.BlacklightHandler",
+      "enable": false
+    },
+    "roughness": {
+      "driver": "drivers.sensordriver.SensorDriver",
+      "com_port": "COM4",
+      "baud_rate": 115200,
+      "timeout": 1,
+      "writeTimeout": 1,
+      "handler": "drivers.handlers.RoughnessHandler",
+      "enable": false
+    },
+    "controller": {
+      "driver": "drivers.networkdriver.NetworkDriver",
+      "send_ip": "192.168.137.1",
+      "send_port": "1338",
+      "listen_ip": "192.168.137.214",
+      "listen_port": "1337",
+      "handler": "drivers.handlers.ControllerHandler",
+      "commands": "drivers.commands.EthernetCommand",
+      "enable": true
+    }
+  }
+}
