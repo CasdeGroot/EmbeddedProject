@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sshpass -p "raspberry" scp -r pi@192.168.1.4:blacklight/Captured_Image /home/avans/Desktop/Projects/SmartTooling/EmbeddedProject/Captured_Image
+sshpass -p "raspberry" scp -r pi@10.4.0.3:blacklight/Captured_Image /home/avans/Desktop/Projects/SmartTooling/EmbeddedProject/Captured_Image

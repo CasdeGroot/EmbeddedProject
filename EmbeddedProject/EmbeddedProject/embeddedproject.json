@@ -1,8 +1,4 @@
 {
-  "vision": {
-    "img_folder": "../Captured_Image",
-    "debug": true
-  },
   "drivers": {
     "blacklight": {
       "driver": "drivers.sensordriver.SensorDriver",

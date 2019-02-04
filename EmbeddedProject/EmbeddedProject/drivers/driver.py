@@ -7,6 +7,7 @@ from EmbeddedProject.Utils.utils import get_attribute
 from EmbeddedProject.drivers.packet import Packet
 from EmbeddedProject.drivers.commands import Command
 
+
 class Driver:
     def __init__(self, config):
         self.handler = None
